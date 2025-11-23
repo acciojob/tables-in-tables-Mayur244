@@ -9,34 +9,42 @@
   <body>
     <table id="table-container" style="width: 100%; height: 100%">
       <!-- Your code here -->
-		<tr id="mayu">
+		<tr>
 			<!-- Nested table 2 -->
 			<td id="col-1">
 				<table id="table-2">
-					<th colspan="2">Nested table 2</th>
-					<tr>
-						<th>column 1</th>
-						<th>column 2</th>
-					</tr>
-					<tr>
-						<td class="abc">abc</td>
-						<td class="abc">def</td>
-					</tr>
+					<thead>
+						<tr><th colspan="2">Nested table 2</th></tr>
+						<tr>
+						   <th>column 1</th>
+						   <th>column 2</th>
+					    </tr>
+					</thead>
+					<tbody>
+						<tr>
+						  <td class="abc">abc</td>
+					      <td class="abc">def</td>
+					    </tr>
+					</tbody>
 				</table>
 			</td>
 			<!-- Nested table 1 -->
 			<td id="col-2">
 				<table id=table-1>
-					<th>Nested table 1</th>
-					<tr>
-						<td>
-							<ul class="abc">
-							<li>List item</li>
-							<li>List item</li>
-							<li>List item</li>
-						</ul>
-						</td>
-					</tr>
+					<thead>
+						<tr><th>Nested table 1</th></tr>
+					</thead>
+					<tbody>
+						<tr>
+						  <td>
+						    <ul class="abc">
+							   <li>List item</li>
+							   <li>List item</li>
+							   <li>List item</li>
+						    </ul>
+						 </td>
+					   </tr>
+					</tbody>
 				</table>
 			</td>
 		</tr>
@@ -44,20 +52,28 @@
 			<!-- Nested table 3 -->
 			<td id="col-3">
 				<table id=table-3>
-					<th colspan=2>Nested table 3</th>
-				<tr>
-					<td class="abc">Nested Table</td>
-					<td class="abc">Demo Continued</td>
-				</tr>
+					<thead>
+						<tr><th colspan=2>Nested table 3</th></tr>
+					</thead>
+				    <tbody>
+						<tr>
+					      <td class="abc">Nested Table</td>
+				          <td class="abc">Demo Continued</td>
+				        </tr>
+					</tbody>
 				</table>
 			</td>
 			<!-- Nested table 4 -->
 			<td id="col-4">
 				<table id=table-4>
-					<th>Nested Table 4</th>
-					<tr>
-						<td id="html">HTML</td>
-					</tr>
+					<thead>
+						<tr><th>Nested Table 4</th></tr>
+					</thead>
+					<tbody>
+						<tr>
+						  <td id="html">HTML</td>
+					    </tr>
+					</tbody>
 				</table>
 			</td>
 		</tr>
