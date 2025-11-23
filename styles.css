@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+
+#col-1 {
+	width : 50%;
+	rowspan="3";
+}
+
+#table-2 {
+  margin-top: 20%;
+  margin-bottom: 20%
+}
+
+#table-3 {
+	margin-top: 7%;
+  margin-bottom: 7%
+}
+
+#table-2, #col-2, #table-1, #table-3, #table-4  {
+	width : 100%;
+}	
+
+.abc {
+	text-align: center;
+}	
+	
+
+table, th, td{
+	border : 1px solid black;
+}
+
+
+
+#html {
+	background-color : black;
+	color : white;
+	text-align : center;
+}
